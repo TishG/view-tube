@@ -1,0 +1,32 @@
+/* @media only screen and (min-width: 651px) {
+  .ui.segment {
+    max-width: 73%;
+  }
+  .ui.button {
+    margin-right: 20%;
+  }
+}
+
+.ui.segment {
+  flex-flow: wrap;
+  float: left;
+  width: 100%;
+  margin: auto;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+}
+
+.ui.button {
+  height: 38px;
+}
+
+.field label {
+  padding-right: 5px;
+}
+
+.icon-container {
+  display: flex;
+} */

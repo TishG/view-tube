@@ -1,0 +1,16 @@
+/* @media only screen and (min-width: 651px) {
+  nav {
+    max-width: 27%;
+  }
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  height: 68px;
+  width: 100%;
+  background-color: #e0e0e0;
+  color: #ff4500;
+} */

@@ -1,0 +1,18 @@
+/* VideoItem component css */
+@media (max-width: 600px) {
+  /* .video-item {
+    width: 100%;
+  } */
+}
+
+.video-item {
+  width: 350px;
+  border-radius: 0.25rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* VideoList component css */
