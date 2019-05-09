@@ -14,7 +14,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-   this.handleSubmit("new music");
+    this.handleSubmit("nba highlights");
   }
 
   //SearchBar Methods
@@ -48,7 +48,8 @@ class App extends React.Component {
   };
 
   render() {
-    const { input } = this.state;
+    const { input, videos, videoSelected } = this.state;
+    console.log(videos);
     return (
       <div className="App container text-center">
         <Header />
@@ -58,11 +59,8 @@ class App extends React.Component {
           handleSubmit={this.handleSubmit}
         />
         <div className="row d-flex justify-content-center align-items-start">
-          <VideoDetail video={this.state.videoSelected} />
-          <VideoList
-            onVideoSelect={this.onVideoSelect}
-            videos={this.state.videos}
-          />
+          <VideoDetail video={videoSelected} />
+          <VideoList onVideoSelect={this.onVideoSelect} videos={videos} />
         </div>
       </div>
     );

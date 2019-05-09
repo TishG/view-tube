@@ -10,24 +10,35 @@ const VideoDetail = ({ video }) => {
       </div>
     );
   }
+  const videoProps = {
+    videoSrc: `https://www.youtube.com/embed/${video.id.videoId}`,
+    title: `${video.snippet.title}`,
+    description: `${video.snippet.description}`,
+    channelTitle: `${video.snippet.channelTitle}`
+  };
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   return (
     <div className="mt-2 col-11 col-lg-8">
       <div className="embed-responsive embed-responsive-16by9">
         <iframe
           src={videoSrc}
-          title={video.snippet.title}
+          title={videoProps["videoSrc"]}
           className="embed-responsive-item"
           allowFullScreen
         />
       </div>
       <div className="mt-2 card">
         <div className="card-body">
-          <h4 className="card-title">{video.snippet.title}</h4>
+          <h4 className="card-title">{videoProps["title"]}</h4>
           <p className="card-text">
-            {video.snippet.description
-              ? video.snippet.description
+            {videoProps["description"]
+              ? videoProps["description"]
               : "No Description"}
+          </p>
+          <p className="card-text">
+            {videoProps["channelTitle"]
+              ? 'Channel:  '+ videoProps["channelTitle"]
+              : "No channel title"}
           </p>
         </div>
       </div>
