@@ -37,7 +37,7 @@ const VideoDetail = ({ video }) => {
           </p>
           <p className="card-text">
             {videoProps["channelTitle"]
-              ? 'Channel:  '+ videoProps["channelTitle"]
+              ? "Channel:  " + videoProps["channelTitle"]
               : "No channel title"}
           </p>
         </div>
