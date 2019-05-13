@@ -3,7 +3,7 @@ import "./VideoList.css";
 
 const VideoItem = ({ video, onVideoSelect }) => {
   return (
-    <div onClick={() => onVideoSelect(video)} className="video-item">
+    <div onClick={() => onVideoSelect(video)} className="card video-item">
       <img
         style={{ maxHeight: "231.19px" }}
         className="img-responsive"
