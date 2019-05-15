@@ -1,6 +1,18 @@
+@media (max-width: 500px) {
+  .search-form-container input {
+    width: 314px;
+  }
+}
+
 @media (max-width: 1199px) {
   .search-form-container {
     margin: auto;
+  }
+}
+
+@media (min-width: 501px) {
+  .search-form-container input {
+    width: 75vw;
   }
 }
 
@@ -13,6 +25,6 @@
 .search-form-container input {
   border-radius: 0.2rem;
   border: 1px solid white;
-  width: 75vw;
+  /* width: 75vw; */
   background-color: black;
 }

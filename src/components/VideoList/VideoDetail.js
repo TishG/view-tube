@@ -28,7 +28,7 @@ const VideoDetail = ({ video }) => {
           allowFullScreen
         />
       </div>
-      <div className="mt-2 card">
+      <div className="video-detail-card mt-2 card">
         <div className="card-body">
           <h4 className="card-title">{videoProps["title"]}</h4>
           <p className="card-text">

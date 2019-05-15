@@ -1,8 +1,10 @@
 /* VideoItem component css */
-@media (max-width: 600px) {
-  /* .video-item {
-    width: 100%;
-  } */
+@media (max-width: 500px) {
+  .video-detail-card,
+  .embed-responsive {
+    width: 350px;
+    margin: auto;
+  }
 }
 
 .video-item {
@@ -14,5 +16,4 @@
   background-color: white;
   cursor: pointer;
 }
-
 /* VideoList component css */
