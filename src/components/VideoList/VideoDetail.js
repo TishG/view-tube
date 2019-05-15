@@ -1,4 +1,5 @@
 import React from "react";
+import he from "he";
 
 const VideoDetail = ({ video }) => {
   //if video is null
@@ -12,13 +13,13 @@ const VideoDetail = ({ video }) => {
   }
   const videoProps = {
     videoSrc: `https://www.youtube.com/embed/${video.id.videoId}`,
-    title: `${video.snippet.title}`,
-    description: `${video.snippet.description}`,
-    channelTitle: `${video.snippet.channelTitle}`
+    title: `${he.decode(video.snippet.title)}`,
+    description: `${he.decode(video.snippet.description)}`,
+    channelTitle: `${he.decode(video.snippet.channelTitle)}`
   };
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   return (
-    <div className="mt-2 col-11 col-lg-8">
+    <div className="mt-2 col-12 col-lg-8">
       <div className="embed-responsive embed-responsive-16by9">
         <iframe
           src={videoSrc}
@@ -33,7 +34,7 @@ const VideoDetail = ({ video }) => {
           <p className="card-text">
             {videoProps["description"]
               ? videoProps["description"]
-              : "No Description"}
+              : "No description"}
           </p>
           <p className="card-text">
             {videoProps["channelTitle"]

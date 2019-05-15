@@ -1,16 +1,19 @@
 import React from "react";
+import he from "he";
+
 import "./VideoList.css";
 
 const VideoItem = ({ video, onVideoSelect }) => {
+  console.log(he);
   return (
     <div onClick={() => onVideoSelect(video)} className="card video-item">
       <img
         style={{ maxHeight: "231.19px" }}
         className="img-responsive"
         src={video.snippet.thumbnails.medium.url}
-        alt={video.snippet.title}
+        alt={he.decode(video.snippet.title)}
       />
-      <p>{video.snippet.title}</p>
+      <p>{he.decode(video.snippet.title)}</p>
     </div>
   );
 };

@@ -8,13 +8,13 @@ import "./App.css";
 
 class App extends React.Component {
   state = {
-    input: "",
+    input: "nba highlights",
     videos: [],
     videoSelected: null
   };
 
-  componentDidMount() {
-    this.handleSubmit("nba highlights");
+  componentDidMount = () => {
+    this.handleSubmit(this.state.input);
   }
 
   //SearchBar Methods

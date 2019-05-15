@@ -10,15 +10,14 @@ const SearchBar = ({ handleChange, handleSubmit, input }) => {
   return (
     <div>
       <form onSubmit={(e) => onSubmit(e)}>
-        <div className="d-flex justify-content-center align-items-center col-lg-8">
+        <div className="search-form-container d-flex justify-content-center align-items-center col-lg-8">
           <input
-            style={{ width: "75vw" }}
             value={input}
             onChange={(e) => handleChange(e)}
             type="text"
-            id="search"
             placeholder="Search..."
             aria-placeholder="Search..."
+            className="pl-1 text-white"
           />
           <button className="ml-1 btn btn-sm btn-secondary d-flex justify-content-center align-items-center">
             <span>

@@ -1,3 +1,18 @@
-.btn-small.btn-secondary {
-  background-color: transition 700ms ease;
+@media (max-width: 1199px) {
+  .search-form-container {
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .search-form-container {
+    margin-left: 9.5px;
+  }
+}
+
+.search-form-container input {
+  border-radius: 0.2rem;
+  border: 1px solid white;
+  width: 75vw;
+  background-color: black;
 }
