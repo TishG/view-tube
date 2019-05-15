@@ -1,5 +1,5 @@
 /* VideoItem component css */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .video-detail-card,
   .embed-responsive {
     width: 350px;

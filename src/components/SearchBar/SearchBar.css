@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .search-form-container input {
     width: 314px;
   }
@@ -10,7 +10,7 @@
   }
 }
 
-@media (min-width: 501px) {
+@media (min-width: 615px) {
   .search-form-container input {
     width: 75vw;
   }
