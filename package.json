@@ -2,7 +2,7 @@
   "name": "view-tube",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TishG.github.io/view-tube",
+  "homepage": "https://tishg.github.io/pennies-converter/",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
