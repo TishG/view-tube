@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/view-tube/static/css/main.9356aea8.chunk.css",
-    "main.js": "/view-tube/static/js/main.9d13f5ee.chunk.js",
-    "main.js.map": "/view-tube/static/js/main.9d13f5ee.chunk.js.map",
-    "runtime~main.js": "/view-tube/static/js/runtime~main.a2af3909.js",
-    "runtime~main.js.map": "/view-tube/static/js/runtime~main.a2af3909.js.map",
-    "static/js/2.b4aac7e2.chunk.js": "/view-tube/static/js/2.b4aac7e2.chunk.js",
-    "static/js/2.b4aac7e2.chunk.js.map": "/view-tube/static/js/2.b4aac7e2.chunk.js.map",
-    "index.html": "/view-tube/index.html",
-    "precache-manifest.2c923c4e2ce76d282bff74658dc4c161.js": "/view-tube/precache-manifest.2c923c4e2ce76d282bff74658dc4c161.js",
-    "service-worker.js": "/view-tube/service-worker.js",
-    "static/css/main.9356aea8.chunk.css.map": "/view-tube/static/css/main.9356aea8.chunk.css.map"
+    "main.css": "/pennies-converter/static/css/main.9356aea8.chunk.css",
+    "main.js": "/pennies-converter/static/js/main.9d13f5ee.chunk.js",
+    "main.js.map": "/pennies-converter/static/js/main.9d13f5ee.chunk.js.map",
+    "runtime~main.js": "/pennies-converter/static/js/runtime~main.2ae67193.js",
+    "runtime~main.js.map": "/pennies-converter/static/js/runtime~main.2ae67193.js.map",
+    "static/js/2.b4aac7e2.chunk.js": "/pennies-converter/static/js/2.b4aac7e2.chunk.js",
+    "static/js/2.b4aac7e2.chunk.js.map": "/pennies-converter/static/js/2.b4aac7e2.chunk.js.map",
+    "index.html": "/pennies-converter/index.html",
+    "precache-manifest.c5c6710c60c8b1590ce567ddb406fd2a.js": "/pennies-converter/precache-manifest.c5c6710c60c8b1590ce567ddb406fd2a.js",
+    "service-worker.js": "/pennies-converter/service-worker.js",
+    "static/css/main.9356aea8.chunk.css.map": "/pennies-converter/static/css/main.9356aea8.chunk.css.map"
   }
 }
