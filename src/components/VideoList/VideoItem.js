@@ -6,9 +6,10 @@ import "./VideoList.css";
 const VideoItem = ({ video, onVideoSelect }) => {
   console.log(he);
   return (
-    <div onClick={() => onVideoSelect(video)} className="card video-item">
+    <div onClick={() => onVideoSelect(video)} className="video-item">
       <img
-        style={{ maxHeight: "231.19px" }}
+        /* style={{ maxHeight: "231.19px" }} */
+        style={{width: "300px"}}
         className="img-responsive"
         src={video.snippet.thumbnails.medium.url}
         alt={he.decode(video.snippet.title)}

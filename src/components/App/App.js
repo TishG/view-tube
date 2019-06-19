@@ -58,7 +58,7 @@ class App extends React.Component {
           input={input}
           handleSubmit={this.handleSubmit}
         />
-        <div className="row d-flex justify-content-center align-items-start">
+        <div>
           <VideoDetail video={videoSelected} />
           <VideoList onVideoSelect={this.onVideoSelect} videos={videos} />
         </div>

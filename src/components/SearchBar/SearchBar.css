@@ -1,18 +1,20 @@
-@media (max-width: 1199px) {
+@media (max-width: 599px) {
   .search-form-container {
+    width: 495px;
     margin: auto;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
   .search-form-container {
-    margin-left: 9.5px;
+    margin: auto;
+    width: 1130px;
   }
 }
 
 .search-form-container input {
   border-radius: 0.2rem;
   border: 1px solid white;
-  width: 75vw;
+  width: 750px;
   background-color: black;
 }

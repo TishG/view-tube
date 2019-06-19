@@ -1,12 +1,31 @@
 /* VideoItem component css */
 
+@media (max-width: 599px) {
+  .video-item,
+  .embed-responsive,
+  .video-detail-card {
+    width: 468px;
+  }
+}
+
+@media (min-width: 600px) {
+  .video-item,
+  .embed-responsive,
+  .video-detail-card {
+    width: 728px;
+  }
+}
+
 .video-item {
-  width: 350px;
+  position: relative;
+  left: 15px;
   border-radius: 0.25rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 20px;
+  margin: 2px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
   background-color: white;
   cursor: pointer;
 }
-
