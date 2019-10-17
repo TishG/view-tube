@@ -4,7 +4,6 @@ import he from "he";
 import "./VideoList.css";
 
 const VideoItem = ({ video, onVideoSelect }) => {
-  console.log(he);
   return (
     <div onClick={() => onVideoSelect(video)} className="video-item">
       <img

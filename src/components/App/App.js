@@ -49,7 +49,6 @@ class App extends React.Component {
 
   render() {
     const { input, videos, videoSelected } = this.state;
-    console.log(videos);
     return (
       <div className="App container text-center">
         <Header />
